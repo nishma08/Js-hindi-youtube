@@ -4,6 +4,6 @@ var accountPassword = "123545"
 
 accountCity = "Sydney"
 
-accountId = 2
+//accountId = 2 //not allowed
 
 console.log(accountId);
