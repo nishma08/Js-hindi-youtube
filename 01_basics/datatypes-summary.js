@@ -41,3 +41,49 @@ console.log(typeof outsideTemp);
 console.log(typeof myObj);
 
 // all of the non-primitive data types are given function datatype
+
+
+// ++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap memory(Non- primitive)
+/*
+let myYoutubeName = "nishmalearns"
+
+let anotherName = myYoutubeName
+anotherName = "learningJouney"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@321"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nishma@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+*/
+
+let x= 5
+let y= x
+y=10
+
+console.log(y);
+console.log(x);
+
+let nishma = {
+    age: 20,
+    gender: "female"
+}
+
+let priya = nishma
+
+priya.age = 22
+
+console.log(priya.age);
+console.log(nishma.age);
+
