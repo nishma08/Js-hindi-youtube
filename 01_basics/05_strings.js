@@ -34,6 +34,12 @@ console.log(url.includes('sundar'));
 
 console.log(gameName.split('-')); // based on '-'
 
+const string1 = 'Hello'
+const string2 = 'Nishma!'
+
+console.log(string1.concat(' ' + string2)); // concatinating two strings
+
+
 
 
 
